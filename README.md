@@ -16,7 +16,7 @@ Milestone2.pdf
 Third Milestone on 28.05.2023
 
 Navigation Diagram:
-https://code.fbi.h-da.de/-/ide/project/human-computer-interaction/HCI_SS23_Meyer/HCI_SS23_Meyer_Gruppe12-Bach_Boudaou_Durben_Kausch/tree/main/-/navigationdiagram.drawio.png/
+https://code.fbi...gram.drawio.png/
 
 Screen Diagrams:
 
