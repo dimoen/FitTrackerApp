@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/baseline_home_24"/>
+        <item
+            android:id="@+id/nav_uebungAnlegen"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Übung anlegen" />
+        <item
+            android:id="@+id/nav_uebungTracken"
+            android:icon="@drawable/baseline_download_done_24"
+            android:title="Übung tracken" />
+        <item
+            android:id="@+id/nav_workoutAnlegen"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Workout anlegen" />
+        <item
+            android:id="@+id/nav_workoutTracken"
+            android:icon="@drawable/baseline_handyman_24"
+            android:title="Workout tracken" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@android:drawable/ic_search_category_default"
+            android:title="Suchen" />
+    </group>
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="Übersicht">
+            <menu>
+                <group>
+                    <item
+                        android:id="@+id/nav_dashboard"
+                        android:icon="@android:drawable/ic_menu_sort_by_size"
+                        android:title="Dashboard" />
+                    <item
+                        android:id="@+id/nav_overview"
+                        android:icon="@android:drawable/ic_menu_view"
+                        android:title="Overview" />
+                </group>
+            </menu>
+
+        </item>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Einstellungen">
+            <menu>
+                <group>
+                    <item android:title="Einstellungen" android:icon="@drawable/baseline_settings_24" android:id="@+id/nav_einstellungen"/>
+                </group>
+            </menu>
+
+        </item>
+
+    </group>
+</menu>

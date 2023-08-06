@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">FitTracker</string>
+    <string name="menu_Open">Open</string>
+    <string name="menu_Close">Close</string>
+    
+    <string-array name="einheiten">
+        <item>Einheit</item>
+        <item>Anzahl</item>
+        <item>Gewicht (in Kg.)</item>
+        <item>Strecke(in Km.)k</item>
+        <item>Dauer (in min.)</item>
+        <item>Dauer (in s.)</item>
+    </string-array>
+
+    <string-array name="uebungen">
+        <item>Übung</item>
+        <item>Laufen</item>
+        <item>Liegestütze</item>
+        <item>Klimmzüge</item>
+        <item>Bench Press</item>
+        <item>Squats</item>
+    </string-array>
+
+    <string-array name="workouts">
+        <item>Workout</item>
+        <item>Montag und Freitag</item>
+    </string-array>
+</resources>

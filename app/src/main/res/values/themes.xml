@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyApplication" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- Primary Color   -->
+        <item name="colorPrimary">@color/petrol</item>
+        <item name="colorPrimaryVariant">@color/darkPetrol</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Primary Color   -->
+        <item name="colorSecondary">@color/secondaryLight</item>
+        <item name="colorSecondaryVariant">@color/darkPetrol</item>
+        <item name="colorOnSecondary">@color/darkGrey</item>
+
+        <item name="colorAccent">@color/secondaryLight</item>
+
+        <!-- Status bar color sheint nicht zu funktionieren-->
+        <item name="android:statusBarColor" tools:targetApi="1">?attr/colorPrimaryDark</item>
+    </style>
+
+
+
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />
+</resources>
